@@ -88,11 +88,21 @@
     </p>
 </footer>
     <section class="user-login">
-    <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
-    <form>
-        <p>Ведите пожалуйста свой логин и пароль</p>
-    </form>
-    <span class="modax-close">x</span>
-</section>
+        <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+        <form class="main-ligin" action="https://echo.htmlacademy.ru"  method="post">
+            <p>Ведите пожалуйста свой логин и пароль</p>
+            <p><label class="visuallity-hidden"><input type="text" name="login" placeholder="логин">логин</label></p>
+            <p><label class="visuallity-hidden"><input type="password" name="password" placeholder="пароль">пароль</label></p>
+            <p>
+                <input class="visuallity-hidden" type="checkbox" name="main-login-checkbox" id="main-login-checkbox">
+                <span class="checkbox-indicator"></span>
+                <label for="main-login-checkbox">Запомните меня</label>
+                <a href="#">Я забыл пароль</a>
+            </p>
+
+            <button type="submit">Войти</button>
+        </form>
+        <button type="button" class="modax-close">x</button>
+    </section>
 </body>
 </html>
