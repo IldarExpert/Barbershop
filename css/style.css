@@ -1,5 +1,13 @@
 body
 {
+    padding: 0;
+    margin: 0;
     font-family: "PT Sans Narrow", "Arial", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+
+    background-color: #000000;
 }
