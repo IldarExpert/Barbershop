@@ -172,6 +172,8 @@ a
 .user-login input
 {
     font: inherit;
+    border: 2px solid #000000;
+    background-color: transparent;
 }
 
 .map
@@ -180,4 +182,10 @@ a
     background-color: #ffffff;
     background-position: top center;
 
+}
+
+.main-ligin a
+{
+    color: #000000;
+    text-decoration: underline;
 }
