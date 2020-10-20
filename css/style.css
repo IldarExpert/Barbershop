@@ -69,8 +69,11 @@ a
 .news-photos,
 .contact-order
 {
-    background-image: url("../img/background_other.jpg");
     color: #000000;
+
+    background-color: #f4f1ee;
+    background-position: top center;
+    background-image: url("../img/background_other.jpg");
 }
 
 .main-advantages h3
@@ -148,4 +151,33 @@ a
 .footer-copyright
 {
     text-align: center;
+}
+
+.user-login
+{
+    color: #000000;
+
+    background-color: #f4f1ee;
+    background-position: top center;
+    background-image: url("../img/background_other.jpg");
+    background-position: 0 0;
+}
+
+.user-login h2
+{
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.user-login input
+{
+    font: inherit;
+}
+
+.map
+{
+    color: #000000;
+    background-color: #ffffff;
+    background-position: top center;
+
 }
