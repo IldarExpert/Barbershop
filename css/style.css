@@ -34,15 +34,30 @@ a
     background-image: url("../img/background_other.jpg");
 }
 
-.main-header
+.header
 {
     background-color: #000000;
     color: #ffffff;
 }
 
-.main-navigation a,
+
 .navigation a
 {
     color: #ffffff;
 }
+
+.site-navigation,
+.user-navigation
+{
+    list-style: none;
+}
+
+.navigation li
+{
+    display: inline;
+}
+
+
+
+
 
