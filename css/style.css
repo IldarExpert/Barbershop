@@ -241,3 +241,9 @@ a
 {
     color: #663d15;
 }
+
+.restore:hover,
+.restore:focus
+{
+    text-decoration: none;
+}
