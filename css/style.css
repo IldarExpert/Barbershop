@@ -123,6 +123,7 @@ a
 }
 .main-footer
 {
+    color: #ffffff;
     background-color: #cccccc;
     background-image: url("../img/footer.png");
 }
@@ -131,6 +132,7 @@ a
 {
     list-style: none;
     color: #ffffff;
+
 }
 
 .footer-address a
@@ -141,16 +143,19 @@ a
 .footer-social ul
 {
     list-style: none;
+
 }
 
 .footer-social
 {
     text-align: center;
+
 }
 
 .footer-copyright
 {
     text-align: center;
+
 }
 
 .user-login
