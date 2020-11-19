@@ -251,7 +251,13 @@ a
 
 /*GRIDs*/
 
-.
+.container
+{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .header
 {
@@ -261,10 +267,16 @@ a
 .main-navigation-wropper
 {
     display: flex;
-    justify-content: space-between;
+
     width: 100%;
     background-color: black;
     margin-bottom: 60px;
+}
+
+.main-navigation-wropper .container
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation
@@ -296,4 +308,40 @@ a
     margin: 0;
     list-style: none;
     width:140px;
+}
+
+.advantages-list
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages
+{
+    width: 300px;
+}
+
+.main-advantages
+{
+    margin-bottom: 80px;
+}
+
+.news-photos
+{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-news
+{
+   width: 380px;
+}
+
+.main-foto
+{
+   width: 300px;
 }
