@@ -34,7 +34,7 @@ a
 
 .header
 {
-    background-color: #000000;
+
     color: #ffffff;
     font-size: 16px;
     line-height: 20px;
@@ -246,4 +246,54 @@ a
 .restore:focus
 {
     text-decoration: none;
+}
+
+
+/*GRIDs*/
+
+.
+
+.header
+{
+    margin-bottom: 75px;
+}
+
+.main-navigation-wropper
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 60px;
+}
+
+.navigation
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-logo
+{
+    order:2;
+    width:371px;
+    height: 155px;
+}
+
+.site-navigation
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 620px;
+}
+
+.user-navigation
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width:140px;
 }
