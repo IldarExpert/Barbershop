@@ -202,7 +202,7 @@ a
     background-color: #f4f1ee;
     background-position: top center;
     background-image: url("../img/background_other.jpg");
-    background-position: 0 0;
+    /*background-position: 0 0;*/
 }
 
 .user-login h2
@@ -393,7 +393,7 @@ a
 
 .main-footer .container
 {
-    padding: 65px 0px;
+    padding: 65px 0;
     display: flex;
 }
 
@@ -471,6 +471,7 @@ a
     padding: 0;
     list-style: none;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 .product-card
@@ -480,6 +481,19 @@ a
     list-style: none;
     width: 220px;
     margin-bottom: 20px;
-
+    margin-right: 20px;
+    background-color: #ffffff;
 }
 
+.product-card:nth-child(3n)
+{
+    margin-right: 0;
+}
+
+.page-item
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
