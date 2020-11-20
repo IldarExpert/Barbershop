@@ -509,3 +509,47 @@ margin-top: 45px;
     padding: 0;
     list-style: none;
 }
+
+.filter-item ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrubs
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallary-item
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    width: 460px;
+}
+
+
+.gallary-item-preview
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.gallary-desctiption
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.desctiption-items
+{
+    width: 390px;
+}
