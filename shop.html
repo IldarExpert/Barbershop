@@ -9,26 +9,25 @@
 </head>
 <body class="other-body">
     <header class="header">
-    <nav class="navigation">
-        <a class="header-logo" href="index.html">
+        <nav class="navigation">
+            <a class="header-logo" href="index.html">
             <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа <Бородинский> ">
         </a>
-        <ul class="site-navigation">
+            <ul class="site-navigation">
             <li> <a href="info.html">ИНФОРМАЦИЯ</a> </li>
             <li> <a href="news.html">НОВОСТИ</a> </li>
             <li> <a href="price.html">ПРАЙС-ЛИСТ</a> </li>
             <li class="site-navigation-current"> <a href="shop.html">МАГАЗИН</a> </li>
             <li> <a href="contacts.html">КОНТАКТЫ</a> </li>
         </ul>
-        <ul class="user-navigation">
+            <ul class="user-navigation">
             <li class="login-link">
                 <a class="login-link" href="login.html">ВХОД</a>
             </li>
         </ul>
-    </nav>
-
-</header>
-    <main class="main-shop">
+        </nav>
+    </header>
+    <main class="main-shop container">
         <h1 class="page-title">СРЕДСТВА ДЛЯ УХОДА</h1>
         <section class="breadcrubs-shop">
             <ul class="breadcrubs">
@@ -37,7 +36,8 @@
         <li class="breadcrubs-curent">СРЕДСТВА ДЛЯ УХОДА</li>
     </ul>
         </section>
-        <section class="filter-item">
+        <div class="filter-product">
+            <section class="filter-item">
             <h2 class="hidden">Фильтры</h2>
             <form class="filter-item-form" action="https://echo.htmlacademy.ru" method="post">
             <fieldset>
@@ -62,9 +62,9 @@
             <button type="submit" name="filter-makers-button">Показать</button>
             </form>
         </section>
-        <section class="product-cards-section">
-            <ul class="product cards">
-                <li class="product card">
+            <section class="product-cards-section">
+                <ul class="product-cards">
+                    <li class="product-card">
                     <a href="#">
                     <p>
                         <img src="img/product_1.jpg" alt="Набор для путешествий «Baxter of California»">
@@ -79,7 +79,7 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-                <li class="product card">
+                    <li class="product-card">
                     <a href="#">
                     <p>
                         <img src="img/product_2.jpg" alt="Увлажняющий кондиционер «Baxter of California»">
@@ -96,7 +96,7 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-                <li class="product card">
+                    <li class="product-card">
                     <p>
                         <a href="#"><img src="img/product_3.jpg" alt="Гель для волос «SUAVECITO»"></a>
                     </p>
@@ -111,7 +111,7 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-                <li class="product card">
+                    <li class="product-card">
                     <p>
                         <a href="#"><img src="img/product_4.jpg" alt="Глина для укладки волос «American crew»"></a>
                     </p>
@@ -126,7 +126,7 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-                <li class="product card">
+                    <li class="product-card">
                     <p>
                         <a href="#"><img src="img/product_5.jpg" alt="Гель для волос «AMERICAN CREW»"></a>
                     </p>
@@ -141,7 +141,7 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-                <li class="product card">
+                    <li class="product-card">
                     <p>
                         <a href="#"><img src="img/product_6.jpg" alt="Набор для бритья «Baxter of California»"></a>
                     </p>
@@ -156,16 +156,18 @@
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
                 </li>
-            </ul>
-        </section>
+                </ul>
+            </section>
+        </div>
         <section class="pages-item">
-    <ul class="page-item">
+            <ul class="page-item">
         <li><a href="#">1</a></li>
         <li class="current-page">2</li>
         <li><a href="#">3</a></li>
         <li><a href="#">4</a></li>
     </ul>
-</section>
+        </section>
+
     </main>
     <footer class="main-footer">
         <p class="footer-address">

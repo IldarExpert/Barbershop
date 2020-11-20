@@ -406,5 +406,80 @@ a
 .map
 {
     width: 780px;
+}
+
+.other-body .header
+{
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.other-body .navigation
+{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.other-body .header-logo
+{
+    width: 111px;
+    height: 24px;
+    padding: 23px 20px;
+}
+
+.other-body .user-navigation
+{
+    margin-left: auto;
+}
+
+.page-title
+{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.breadcrubs-shop
+{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.filter-item
+{
+    width: 180px;
+}
+
+.product-cards-section
+{
+    width: 700px;
+}
+
+.filter-product
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-cards
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.product-card
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 220px;
+    margin-bottom: 20px;
 
 }
+
