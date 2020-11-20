@@ -92,6 +92,9 @@ a
     font-size: 30px;
     line-height: 42px;
 }
+
+
+
 .gallery-content
 {
     background-color: #cccccc;
@@ -249,7 +252,7 @@ a
 }
 
 
-/*GRIDs*/
+/**********************************************   GRIDs    ********************************************************/
 
 .container
 {
@@ -334,6 +337,7 @@ a
     padding: 50px 80px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .main-news
@@ -343,5 +347,64 @@ a
 
 .main-foto
 {
-   width: 300px;
+    width: 300px;
+}
+
+.main-contact-information
+{
+    width: 380px;
+}
+
+.main-order
+{
+    width: 300px;
+}
+
+.contact-order
+{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer
+{
+    margin-top: 65px;
+}
+
+.footer-address
+{
+    margin: 0;
+    width: 320px;
+    margin-right: 80px;
+}
+
+.footer-social
+{
+    width: 140px;
+}
+
+.footer-copyright
+{
+    margin: 0;
+    width: 140px;
+    margin-left: auto;
+}
+
+.main-footer .container
+{
+    padding: 65px 0px;
+    display: flex;
+}
+
+.user-login
+{
+    width: 460px;
+    padding: 55px 80px;
+}
+
+.map
+{
+    width: 780px;
+
 }
