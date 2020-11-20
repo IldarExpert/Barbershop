@@ -497,3 +497,15 @@ a
     padding: 0;
     list-style: none;
 }
+
+.other-body .main-footer
+{
+margin-top: 45px;
+}
+
+.product-card p
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
