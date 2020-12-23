@@ -14,6 +14,18 @@ a
     text-decoration: none;
 }
 
+img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.visuallity-hidden:not(:focus):not(:active),
+input[type="checkbox"].visuallity-hidden,
+input[type="radio"].visuallity-hidden
+{
+    display: none;
+}
 
 .main-body
 {
