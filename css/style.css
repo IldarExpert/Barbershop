@@ -354,7 +354,14 @@ input[type="radio"].visuallity-hidden
     background-image: url("../img/login.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-color: red;
+    opacity: 0.3;
+}
+
+.login-link:hover::before,
+.login-link:focus::before,
+.login-link:active::before
+{
+    opacity: 1;
 }
 
 .advantages-list
