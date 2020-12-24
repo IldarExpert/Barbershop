@@ -103,19 +103,40 @@ input[type="radio"].visuallity-hidden
 
 }
 
+
 .main-advantages h3
 {
     font-size: 30px;
     line-height: 42px;
 }
 
-.news-photos h2
+.news-photos h2,
+.contact-order h2
 {
     font-size: 30px;
     line-height: 42px;
+    margin: 0;
+    margin-bottom: 25px;
 }
 
+.main-news p
+{
+    margin: 0;
+}
 
+.main-news
+{
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.news-item
+{
+    margin-bottom: 25px;
+}
 
 .gallery-content
 {
@@ -137,12 +158,24 @@ input[type="radio"].visuallity-hidden
 
 .button
 {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-right: 16px;
+
     font: inherit;
     color: #ffffff;
     background-color: #000000;
     border: none;
     text-align: center;
     vertical-align: middle;
+}
+
+.button.disabled,
+.button:disabled
+{
+    cursor: default;
+    opacity: 0.5;
+    background-color: #000000;
 }
 
 .button:hover,
