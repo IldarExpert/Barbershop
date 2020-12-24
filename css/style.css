@@ -89,8 +89,18 @@ input[type="radio"].visuallity-hidden
     color: #000000;
 
     background-color: #f4f1ee;
-    background-position: top center;
-    background-image: url("../img/background_other.jpg");
+
+    background-image:
+            url("../img/line.png"),
+            url("../img/background_other.jpg");
+
+    background-repeat:
+            no-repeat,
+            repeat;
+    background-position:
+            center,
+            0 0;
+
 }
 
 .main-advantages h3
