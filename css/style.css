@@ -373,6 +373,38 @@ input[type="radio"].visuallity-hidden
     justify-content: space-between;
 }
 
+.advantages-list h3
+{
+    margin: 0;
+    margin-bottom: 60px;
+
+    font-size: 30px;
+    line-height: 42px;
+
+    position: relative;
+}
+
+.advantages-list h3::after
+{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+
+    background-color: white;
+
+    bottom: -30px;
+    left: 50%;
+    margin-left: -10px;
+
+    transform: rotate(45deg);
+}
+
+.advantages-list p
+{
+    margin: 0 10px;
+}
+
 .advantages
 {
     width: 300px;
