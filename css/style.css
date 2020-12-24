@@ -518,9 +518,17 @@ input[type="radio"].visuallity-hidden
     width: 380px;
 }
 
+.main-contact-information p
+{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
 .main-order
 {
     width: 300px;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .contact-order
@@ -528,6 +536,47 @@ input[type="radio"].visuallity-hidden
     padding: 50px 80px;
     display: flex;
     justify-content: space-between;
+}
+
+.main-form
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-form-item
+{
+    width: 140px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.main-form-item label
+{
+    display: block;
+    margin-bottom: 9px;
+    margin-left: 15px;
+}
+
+.main-form-item input
+{
+    box-sizing: border-box;
+    width: 140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+
+}
+
+.main-form .button
+{
+
+    width: 100%;
+
+    margin-top: 10px;
+    margin-right: 0;
 }
 
 .main-footer
