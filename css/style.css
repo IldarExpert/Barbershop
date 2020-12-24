@@ -142,7 +142,18 @@ input[type="radio"].visuallity-hidden
 {
     background-color: #cccccc;
     border:7px solid #ffffff;
+
+    height: 164px;
+    margin: 0;
 }
+
+.gallery-content img
+{
+    width: 286px;
+    height: 164px;
+}
+
+
 
 .main-news time
 {
@@ -183,6 +194,32 @@ input[type="radio"].visuallity-hidden
 .button:active
 {
     background-color: #663d15;
+}
+
+.gallery-contaner
+{
+    position: relative;
+    height: 260px;
+}
+
+.gallery-button
+{
+    box-sizing: border-box;
+    width: 140px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.gallery-button-back
+{
+    left: 0;
+}
+
+.gallery-button-next
+{
+    right: 0;
 }
 
 .main-order input
