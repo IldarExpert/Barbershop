@@ -264,18 +264,18 @@ input[type="radio"].visuallity-hidden
     list-style: none;
 }
 
+.footer-social b
+{
+    display: block;
+    margin-bottom: 15px;
+}
+
 .social
 {
     background-color: #000000;
 }
 
-.social a:hover,
-.social a:focus
-{
-    background-color: #ffffff;
-    color: #000000;
 
-}
 
 .footer-social
 {
@@ -285,6 +285,18 @@ input[type="radio"].visuallity-hidden
 .footer-copyright
 {
     text-align: center;
+}
+.footer-copyright b
+{
+    display: block;
+
+    margin-bottom: 15px;
+}
+
+.footer-copyright .button
+{
+    display: block;
+    margin-right: 0;
 }
 
 .user-login
@@ -617,15 +629,18 @@ input[type="radio"].visuallity-hidden
 }
 
 .social:hover,
-.social:focus
+.social:focus,
+.social:active
 {
+
     background-color: white;
 }
+
 
 .footer-copyright
 {
     margin: 0;
-    width: 140px;
+    width: 150px;
     margin-left: auto;
 }
 
