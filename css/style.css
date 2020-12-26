@@ -606,6 +606,7 @@ input[type="radio"].visuallity-hidden
 .footer-social
 {
     width: 140px;
+    position: relative;
 }
 
 .footer-social ul
@@ -634,6 +635,22 @@ input[type="radio"].visuallity-hidden
 {
 
     background-color: white;
+}
+
+.social-vk:hover::after,
+.social-vk:focus::after,
+.social-vk:active::after
+{
+    content: "";
+    position: absolute;
+    bottom: 14px;
+    left: auto;
+    right: auto;
+    background-color: white;
+    background: url("../img/vk2.png") no-repeat center center;
+    width: 43px;
+    height: 43px;
+    z-index: 100;
 }
 
 
