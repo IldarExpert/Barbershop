@@ -667,6 +667,14 @@ input[type="radio"].visuallity-hidden
     display: flex;
 }
 
+/*.modal
+{
+    color: #000000;
+    background-color: #f4f1ee;
+    background-position: top center;
+    background-image: url("../img/background_other.jpg");
+}*/
+
 .user-login
 {
     width: 460px;
