@@ -748,6 +748,84 @@ input[type="radio"].visuallity-hidden
     margin: 15px 0;
 }
 
+.main-login-checkbox
+{
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.main-login-checkbox:hover,
+.main-login-checkbox:focus
+{
+    color: #663d15;
+}
+
+.main-login-checkbox input[type="checkbox"] + .checkbox-indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 17px;
+    height: 17px;
+
+    border: 2px solid #000000;
+
+}
+
+.main-login-checkbox input[type="checkbox"]:focus + .checkbox-indicator
+
+{
+    border-color: #663d15;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+.main-login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before,
+.main-login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after
+{
+    content: "";
+
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    width: 15px;
+    height: 2px;
+    background-color: black;
+
+}
+
+.main-login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::before
+{
+    transform: rotate(45deg);
+}
+
+.main-login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after
+{
+    transform: rotate(-45deg);
+}
+
+
+.visuallity-hidden2:not(:focus):not(:active),
+input[type="checkbox"].visuallity-hidden2,
+input[type="radio"].visuallity-hidden2 {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 .modax-close
 {
