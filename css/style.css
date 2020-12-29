@@ -675,10 +675,12 @@ input[type="radio"].visuallity-hidden
     background-position: top center;
     background-image: url("../img/background_other.jpg");
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+    display: none;
 }
 
 .user-login
 {
+
     width: 300px;
     padding: 50px 80px;
 
@@ -808,6 +810,13 @@ input[type="radio"].visuallity-hidden
 }
 
 
+.user-login .button
+{
+    width: 100%;
+    margin-right: 0;
+}
+
+
 .visuallity-hidden2:not(:focus):not(:active),
 input[type="checkbox"].visuallity-hidden2,
 input[type="radio"].visuallity-hidden2 {
@@ -864,7 +873,21 @@ input[type="radio"].visuallity-hidden2 {
 
 .map
 {
-    width: 780px;
+    width: 766px;
+    height: 561px;
+    top: 50%;
+    left: 50%;
+
+    transform: translateX(-50%) translateY(-50%);
+    /*margin-top: -280px;
+    margin-left: -390px; */
+
+    border: 7px solid white;
+}
+
+.map p
+{
+    margin: 0;
 }
 
 .other-body .header
