@@ -669,13 +669,30 @@ input[type="radio"].visuallity-hidden
 
 .modal
 {
+    display: none;
+
     position: fixed;
     color: #000000;
     background-color: #f4f1ee;
     background-position: top center;
     background-image: url("../img/background_other.jpg");
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+   /* display: none;*/
+    z-index: 2;
+
+}
+
+.modal-overlay
+{
     display: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .user-login
@@ -780,7 +797,7 @@ input[type="radio"].visuallity-hidden
 
 {
     border-color: #663d15;
-    outline: thin dotted;
+    /*outline: thin dotted;*/
     outline: 5px auto -webkit-focus-ring-color;
 }
 
@@ -874,7 +891,7 @@ input[type="radio"].visuallity-hidden2 {
 .map
 {
     width: 766px;
-    height: 561px;
+    height: 560px;
     top: 50%;
     left: 50%;
 
