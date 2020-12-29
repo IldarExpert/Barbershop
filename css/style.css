@@ -667,18 +667,121 @@ input[type="radio"].visuallity-hidden
     display: flex;
 }
 
-/*.modal
+.modal
 {
+    position: fixed;
     color: #000000;
     background-color: #f4f1ee;
     background-position: top center;
     background-image: url("../img/background_other.jpg");
-}*/
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
 
 .user-login
 {
-    width: 460px;
-    padding: 55px 80px;
+    width: 300px;
+    padding: 50px 80px;
+
+    top: 120px;
+    left: 50%;
+    margin-left: -230px;
+}
+
+.user-login h2
+{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.user-login-description
+{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user-login p
+{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user-login input[type="text"],
+.user-login input[type="password"]
+{
+    font: inherit;
+    color: black;
+    text-transform: uppercase;
+
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px 15px;
+    padding-right: 40px;
+    border: 2px solid #000000;
+}
+
+.user-login input:focus
+{
+    border-color: #663d15;
+}
+
+.login-icon
+{
+    background-image: url("../img/user.svg");
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+.password-icon
+{
+    background-image: url("../img/lock.svg");
+    background-position: 270px center;
+    background-repeat: no-repeat;
+}
+
+.user-login .login-help
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+
+.modax-close
+{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    border: 0;
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    right: -34px;
+    background-color: transparent;
+}
+
+.modax-close::before,
+.modax-close::after
+{
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 3px;
+    background-color: #d0d0d0;
+    top: 10px;
+    left: 2px;
+}
+
+.modax-close::before
+{
+    transform: rotate(45deg);
+}
+
+.modax-close::after
+{
+    transform: rotate(-45deg);
 }
 
 .map
