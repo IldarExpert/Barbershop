@@ -191,13 +191,23 @@
         <div class="modal-overlay"></div>
 
     <script>
-        var loginLink=document.querySelector(".login-link");
-        var popupLogin=document.querySelector(".user-login");
-        loginLink.addEventListener("click", function (evt) {
-            evt.preventDefault();
-            popupLogin.classList.add("modal-show");
+        var loginLink=document.querySelector(".login-link")
+        var popupLogin=document.querySelector(".user-login")
+        loginLink.addEventListener("click", function (abc) {
+            abc.preventDefault();
+            popupLogin.classList.add("modal-show")
+        })
 
-        });
+
+        var modalClose=document.querySelector(".modax-close")
+
+        modalClose.addEventListener("click", function (abc) {
+            abc.preventDefault();
+            popupLogin.classList.remove("modal-show")
+
+        })
+
+
     </script>
 </body>
 </html>
