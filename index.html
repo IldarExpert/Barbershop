@@ -189,5 +189,15 @@
             <button type="button" class="modax-close">x</button>
         </section>
         <div class="modal-overlay"></div>
+
+    <script>
+        var loginLink=document.querySelector(".login-link")
+        var popupLogin=document.querySelector("user-login")
+        loginLink.addEventListener("click", function (evt) {
+            evt.preventDefault()
+            popupLogin.classList.add("modal-show")
+
+        })
+    </script>
 </body>
 </html>
