@@ -1052,3 +1052,8 @@ margin-top: 45px;
 {
     width: 390px;
 }
+
+.modal-show
+{
+    display: block;
+}
