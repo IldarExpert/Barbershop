@@ -193,17 +193,22 @@
     <script>
         var loginLink=document.querySelector(".login-link")
         var popupLogin=document.querySelector(".user-login")
+        var modalClose=document.querySelector(".modax-close")
+        /*var modalClose=document.querySelector(".modal-overlay")*/
+        var loginForm=popupLogin.querySelector("[name=login]")
+
         loginLink.addEventListener("click", function (abc) {
             abc.preventDefault();
-            popupLogin.classList.add("modal-show")
+            popupLogin.classList.add("modal-show");
+            loginForm.focus();
         })
 
 
-        var modalClose=document.querySelector(".modax-close")
+
 
         modalClose.addEventListener("click", function (abc) {
             abc.preventDefault();
-            popupLogin.classList.remove("modal-show")
+            popupLogin.classList.remove("modal-show");
 
         })
 
