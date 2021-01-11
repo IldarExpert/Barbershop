@@ -233,6 +233,16 @@
             }
         })
 
+        window.addEventListener("keydown", function (abc) {
+            if (abc.key === 27) {
+
+                if (popupLogin.classList.contains("modal-show")) {
+                    abc.preventDefault()
+                    popupLogin.classList.remove("modal-show")
+                }
+            }
+        })
+
 
     </script>
 </body>
