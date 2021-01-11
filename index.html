@@ -218,7 +218,7 @@
         modalClose.addEventListener("click", function (abc) {
             abc.preventDefault();
             popupLogin.classList.remove("modal-show");
-
+            popupLogin.classList.remove("modal-error");
         })
 
         formForm.addEventListener("submit", function (abc) {
@@ -227,6 +227,7 @@
                 console.log(loginForm.value)
                 console.log(passwordForm.value)
                 console.log("Нужны данные логина и пароля")
+                popupLogin.classList.add("modal-error")
             } else {
                 localStorage.setItem("login", loginForm.value)
                 localStorage.setItem("password", passwordForm.value)
